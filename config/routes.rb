@@ -4,7 +4,7 @@ Changes::Application.routes.draw do
   root to: 'static_pages#home'
   
   match '/signup',  to: 'users#new'
-  match '/help',    to: 'static_pages#help'
+  match '/help',    to: 'static_pages#help'    #  /help%5Eme   /help.me
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
 

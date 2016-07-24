@@ -13,3 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+ 
+
+window.onload = function() {
+  ele = document.getElementById("evergreen");
+  console.log(ele);
+    ele.innerHTML = "THIS IS MAJIC";
+    ele.setAttribute("class", "evergreen");
+}
