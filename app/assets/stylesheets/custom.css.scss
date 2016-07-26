@@ -1,7 +1,14 @@
 @import "bootstrap";
 
 /* mixins, variable, e.t.c */
+
 $grayMediumLight: #eaeaea;
+
+@mixins box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* universal */
 
